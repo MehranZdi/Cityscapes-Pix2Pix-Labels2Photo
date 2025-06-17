@@ -1,7 +1,5 @@
 # Cityscapes Pix2Pix - Labels to Photo Translation
 
-# My Project Name
-
 **⚠️ WARNING: This project is currently under active development. Features may change, and bugs are expected.**
 
 ## Project Status
