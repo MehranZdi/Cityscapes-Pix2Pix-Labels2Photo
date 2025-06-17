@@ -1,2 +1,19 @@
-# Cityscapes-Pix2Pix-Labels2Photo 
-### Is a deep learning project that implements the Pix2Pix model to translate semantic segmentation labels from the Cityscapes dataset into photorealistic urban scene images. Built using PyTorch, this repository includes code for data preprocessing, model training, and evaluation, leveraging the Cityscapes dataset’s 2,975 training and 500 validation image pairs. Ideal for computer vision enthusiasts exploring image-to-image translation for urban scene generation.
+# Cityscapes Pix2Pix - Labels to Photo Translation
+
+# My Project Name
+
+**⚠️ WARNING: This project is currently under active development. Features may change, and bugs are expected.**
+
+## Project Status
+
+This project is in its final stages of development.
+
+## Project Overview
+
+- **Objective**: Develop a model to generate realistic images from semantic labels, preserving spatial structure and content.
+- **Dataset**: Cityscapes dataset (train and validation splits), resized to 512x256 pixels.
+- **Model**: 
+  - Generator: U-Net architecture with skip connections.
+  - Discriminator: PatchGAN for local realism assessment.
+- **Loss Functions**: Adversarial loss (BCE) and L1 loss for structural fidelity.
+- **Training**: Trained on CUDA-enabled GPU, with early stopping and checkpointing.
